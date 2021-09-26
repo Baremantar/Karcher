@@ -1,0 +1,101 @@
+.wrapper {
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+}
+.first_block {
+  margin-left: 360px;
+  display: flex;
+  height: 120px;
+  max-width: 1200px;
+  .logo {
+    width: 295px;
+    .logo_img {
+      background-image: url(../img/logo.png);
+      margin-top: 24px;
+    }
+    .description {
+      line-height: 20px;
+      margin: 0;
+      font-size: 12px;
+      p {
+        color: #6e6e6e;
+      }
+    }
+  }
+  .geo {
+    margin-left: 170px;
+    margin-top: 19px;
+    display: flex;
+    .logo_geo {
+      background-image: url(../img/geopos.png);
+      width: 21px;
+      height: 28px;
+    }
+    p {
+      margin: 0;
+      font-size: 14px;
+    }
+    .text_geo {
+      margin-left: 15px;
+    }
+  }
+  .clock {
+    margin-top: 20px;
+    margin-left: 75px;
+    display: flex;
+    p {
+      margin: 0;
+      font-size: 14px;
+    }
+    .logo_time {
+      background-image: url(../img/clock.png);
+      width: 28px;
+      height: 28px;
+    }
+    .text_time {
+      margin-left: 12px;
+    }
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;    
+    margin-left: 130px;
+    .number {
+      margin-top: 21px;
+      display: flex;
+      p {
+        margin: 0;
+        font-size: 18px;
+      }
+      .logo_phone {
+        background-image: url(../img/phone.png);
+        width: 21px;
+        height: 28px;
+      }
+      .text_phone {
+        margin-left: 14px;
+      }
+    }
+    .callback {
+      position: relative;
+      left: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000000;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: bold;
+      width: 130px;
+      height: 27px;
+      background: #ffec00;
+      border: 2px solid #ffec00;
+      margin-top: 10px;
+    }
+    .callback:after {
+      // don't understand how use it
+    }
+  }
+}
